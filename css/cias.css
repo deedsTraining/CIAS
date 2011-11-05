@@ -1,245 +1,49 @@
-
 @import\ url("fixIE.css");
-
-* {
-	margin: 0;
-	padding: 0;
-	}
-
-table.memb {
-	border: thin #FE1B01;
-}
-th.memb {
-	background-color: Red;
-	font-weight: bold;
-	text-align: center;
-	color: White;
-	font-size: 12px;
-}
-
-td.memb {
-	background-color: #D3D3D3;
-	font-weight: normal;
-	text-align: center;
-	font-size: 12px;
-	color: Black;
-}
-td.activ {
-	background-color: #D3D3D3;
-	font-weight: normal;
-	text-align: left;
-	font-size: 12px;
-	color: Black;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-
-body {
-	background: #DCDCDC;
-	padding: 20px 0 20px 0;
-	text-align: center;
-	}
-
-h1 {
-	color: #FE1B01;
-	font-size: 24px;
-	font-weight: normal;
-	padding: 0 6px 0 0;
-	}
-
-h2 { padding: 2px 0 18px 0; }
-
-h3{
-	text-align : center;
-}
-
-h4 {
-	padding: 2px 0 10px 0;
-	text-align : center;
-}
-h5 {
-	text-align : center;
-}
-h6 {
-	text-align : left;
-}
-a img { border: 0px none;  }
-
-#container {
-	background: #FFF;
-	border-top: 1px #000 solid;
-	border-left: 1px #000 solid;
-	border-right: 1px #000 solid;
-	border-bottom: 1px #000 solid;
-	margin: 0 auto;
-	width: 754px;
-	text-align: left;
-}
-
-#header {
-/*	background: #FFF url(../images/CIAS-logo.png) no-repeat bottom left; */
-	height: 100px;
-	line-height: 120px;
-	margin: 0 auto;
-	text-align: right;
-	width: 674px;
-	}
-
-	#header img {
-		float: left;
-		padding: 12px 0 0 0;
-		}
-
-#content {
-	padding: 20px 0px 16px 45px;
-	text-align: justify;
-	font-family: verdana;
-	font-size: 12px;
-	width: 528px;
-	float: left;
-}
-
-#content p {
-	font-family: times, serif;
-	text-indent: 0px;
-	padding: 0 6px 18px 0;
-	font-size : medium;
-}
-
-
-#nav {
-	font-family: verdana, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	margin: 8px 0 0 0;
-	padding: 0 0 0 38px;
-	}
-
-	#nav p {
-		float: left;
-		font-size: 8px;
-		color: #999;
-		}
-
-	#menu { 
-		float: right;
-		}
-
-	#menu a { display: block; }
-
-	#menu ul {
-	list-style-type: none;
-	padding: 0px 38px 0px 0px;
-	margin: 0;
-	width: 131px;
-}
-
-	#menu li {
-		background: #FE1B01; 
-		height: 33px;
-/*		margin-bottom: 2px; */
-		width: 131px;
-		}
-
-	#menu li.one {
-		line-height: 33px;
-/*		margin-bottom: 2px; */
-		}
-
-	#menu li.two {
-/*		margin: 0; */
-				}
-
-	#menu > ul > li { margin: 0; }
-	#menu > ul > li.one { margin: 0 0 1px 0; }
-	#menu > ul > li.two { margin: 0 0 1px 0; }
-
-li.pub {
-	padding-bottom: 5px;
-	padding-top: 5px;
-}
-
-	#menu li.two a {
-		padding-top: 2px;
-		}
-
+* { margin:0; padding:0	}
+table.memb { border: thin #FE1B01 }
+th.memb {	background-color: red; font-weight: bold; text-align: center; color: white; font-size: 12px }
+td.memb { background-color: #D3D3D3; font-weight: normal; text-align: center; font-size: 12px; color: black }
+td.activ { background-color: #D3D3D3; font-weight: normal; text-align: left; font-size: 12px; color: black; padding:2px 5px }
+body { background: #DCDCDC; padding: 20px 0; text-align: center	}
+h1 { color: #FE1B01; font-size: 24px; font-weight: normal; padding: 0 6px 0 0 }
+h2 { padding: 2px 0 18px 0 }
+h3 { text-align : center }
+h4 { padding: 2px 0 10px 0; text-align : center }
+h5 { text-align : center }
+h6 { text-align : left }
+a img { border: 0px none }
+#container { background: #FFF; border: 1px #000 solid; margin: 0 auto; width: 754px; text-align: left }
+#header { /*	background: #FFF url(../images/CIAS-logo.png) no-repeat bottom left; */
+	height: 100px; line-height: 120px; margin: 0 auto; text-align: right; width: 674px }
+#header img { float: left; padding: 12px 0 0 0 }
+#content { padding: 20px 0px 16px 45px; text-align: justify; font-family: verdana; font-size: 12px; width: 528px; float: left }
+#content p { font-family: times, serif; text-indent: 0px; padding: 0 6px 18px 0; font-size : medium }
+#nav { font-family: verdana, sans-serif; font-size: 12px; font-weight: bold; margin: 8px 0 0 0; padding: 0 0 0 38px }
+#nav p { float: left; font-size: 8px; color: #999 }
+#menu { float: right }
+#menu a { display: block }
+#menu ul { list-style-type: none; padding: 0px 38px 0px 0px; margin: 0; width: 131px }
+#menu li { background: #FE1B01; height: 33px; /*		margin-bottom: 2px; */ width: 131px }
+#menu li.one { line-height: 33px; /*		margin-bottom: 2px; */ }
+/* #menu li.two { margin: 0 } */
+#menu > ul > li { margin: 0 }
+#menu > ul > li.one { margin: 0 0 1px 0 }
+#menu > ul > li.two { margin: 0 0 1px 0; }
+li.pub { padding-bottom: 5px; padding-top: 5px }
+#menu li.two a { padding-top: 2px }
 /* MacIE \ Hack */
-	#menu li.two a {
-		padding-top: 2px;
-		}
-/* */
-
-	#menu li a {
-		color: #FFF;
-		padding: 0 0 0 12px;
-		text-decoration: none;
-		}
-
-#extra {
-	float: right;
-	padding: 12px 38px 0 0;
-	width: 131px;
-}
-
-.clear { clear: both; }
-
-.hidden { display: none; }
-
-.thumbnails {
-	text-align: left;
-}
-
-.thumbnails img { border: 1px #000 solid; }
-
-.credit { 
-	color: #999;
-	text-align: right;
-	background: #DCDCDC;
-	margin: 0 auto;
-	border: 0px #000 solid;
-	width: 754px;
-	font-family: verdana, arial;
-	font-size: 10px;
-	padding: 4px 18px 4px 0;
-	}
-
-.credit_black {
-	text-align: left;
-	margin: 0 auto;
-	border: 0px #000 solid;
-	font-family: verdana, arial;
-	font-size: 10px;
-	padding: 4px 18px 4px 0;
-}
-
-.italic {
-	font-style : italic;
-	font-weight : bolder;
-	font-family : verdana, arial;
-}
-.underline{
-	text-decoration : underline;
-}
-	.credit a {
-		color: #666;
-		text-decoration: none;
-		}
-.red {
-	color : #FE1B01;
-}
-.caption {	
-  text-align: left;	
-  margin: 0 auto;	
-  border: 0px #000 solid;	
-  font-family: verdana, arial;	
-  font-size: 14px;	
-  padding: 4px 18px 4px 0;
-  }
-hr.red {
-	color: #FE1B01;
-	height: 10;
-	width: 537;
-	background: #FE1B01;
-}
+#menu li.two a { padding-top: 2px }
+#menu li a { color: #FFF; padding: 0 0 0 12px; text-decoration: none }
+#extra { float: right; padding: 12px 38px 0 0; width: 131px }
+.clear { clear: both }
+.hidden { display: none }
+.thumbnails { text-align: left }
+.thumbnails img { border: 1px #000 solid }
+.credit { color: #999; text-align: right; background: #DCDCDC; margin: 0 auto; border: 0px #000 solid; width: 754px; font-family: verdana, arial; font-size: 10px; padding: 4px 18px 4px 0 }
+.credit_black { text-align: left; margin: 0 auto; border: 0px #000 solid; font-family: verdana, arial; font-size: 10px; padding: 4px 18px 4px 0 }
+.italic { font-style : italic; font-weight : bolder; font-family : verdana, arial }
+.underline { text-decoration : underline }
+.credit a { color: #666; text-decoration: none }
+.red { color : #FE1B01 }
+.caption { text-align: left; margin: 0 auto; border: 0px #000 solid; font-family: verdana, arial;	font-size: 14px; padding: 4px 18px 4px 0 }
+hr.red { color: #FE1B01; height: 10; width: 537; background: #FE1B01 }
