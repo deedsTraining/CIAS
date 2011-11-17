@@ -1,0 +1,6 @@
+_site
+*.txt
+google*.html
+page-speed
+*unused.*
+*.swp

@@ -1,0 +1,29 @@
+@font-face {
+ font-family: ming;
+ src: url("../fonts/ming.eot") /* EOT file for IE */
+}
+
+@font-face {
+ font-family: ming;
+ src: url("../fonts/ming.ttf") /* TTF file for CSS3 browsers */
+}
+/* @font-face {
+  font-family:"Chinyen";
+  src:url("Chinyen.eot?") format("eot"),
+  url("Chinyen.woff") format("woff"),
+  url("Chinyen.ttf") format("truetype"),
+  url("Chinyen.svg#Chinyen") format("svg");
+  font-weight:normal;font-style:normal;}
+
+@font-face {
+  font-family: 'ming';
+  src: url('../fonts/ming.eot?') format('eot')
+  src: local("☺"),
+       url('../fonts/ming.woff') format('woff'),
+       url('../fonts/ming.ttf') format('truetype'),
+       url('../fonts/ming.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+h1,h2 { font-family: ming, Georgia, serif; color:red; }
